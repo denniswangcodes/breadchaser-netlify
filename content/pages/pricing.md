@@ -11,7 +11,7 @@ sections:
       type: TitleBlock
     subtitle: This is the subtitle for the pricing section
     plans:
-      - title: Developers
+      - title: Standard
         price: Free
         details: No credit card required
         description: >-
@@ -27,7 +27,7 @@ sections:
           altText: Pricing plan 1
           type: ImageBlock
         actions:
-          - label: Try for free
+          - label: Try It Now
             url: /
             icon: arrowRight
             iconPosition: right
@@ -43,8 +43,8 @@ sections:
               - pr-6
             borderRadius: large
         type: PricingPlan
-      - title: Professional
-        price: $99
+      - title: Premium
+        price: $9.99
         details: per month
         description: >-
           Sed ut perspiciatis unde omnis, iste natus error sit voluptatem
@@ -59,7 +59,7 @@ sections:
           altText: Pricing plan 2
           type: ImageBlock
         actions:
-          - label: Try for free
+          - label: 7-Day Free Trial
             url: /
             icon: arrowRight
             iconPosition: right
@@ -75,9 +75,9 @@ sections:
               - pr-6
             borderRadius: large
         type: PricingPlan
-      - title: Enterprise
-        price: Custom
-        details: per month
+      - title: Elite
+        price: $59.99
+        details: per year
         description: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam.
@@ -92,7 +92,7 @@ sections:
           altText: Pricing plan 3
           type: ImageBlock
         actions:
-          - label: Contact us
+          - label: 7-Day Free Trial
             url: /
             icon: arrowRight
             iconPosition: right
