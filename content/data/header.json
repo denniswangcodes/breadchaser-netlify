@@ -11,16 +11,8 @@
     },
     "primaryLinks": [
         {
-            "label": "Pricing",
-            "url": "/pricing",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "secondary",
-            "type": "Link"
-        },
-        {
-            "label": "Blog",
-            "altText": "Blog",
+            "label": "About",
+            "altText": "About",
             "url": "/blog",
             "icon": "arrowRight",
             "iconPosition": "right",
@@ -28,20 +20,11 @@
             "type": "Link"
         },
         {
-            "label": "Careers",
-            "altText": "Careers page",
-            "url": "/careers",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "secondary",
-            "type": "Link"
-        },
-        {
-            "label": "Dropdown",
-            "altText": "Dropdown",
+            "label": "Features",
+            "altText": "Features",
             "links": [
                 {
-                    "label": "Dropdown item",
+                    "label": "Feature 1",
                     "url": "/",
                     "icon": "arrowRight",
                     "iconPosition": "right",
@@ -49,7 +32,7 @@
                     "type": "Link"
                 },
                 {
-                    "label": "Dropdown item",
+                    "label": "Feature 2",
                     "url": "/",
                     "icon": "arrowRight",
                     "iconPosition": "right",
@@ -57,7 +40,7 @@
                     "type": "Link"
                 },
                 {
-                    "label": "Dropdown item",
+                    "label": "Feature 3",
                     "url": "/",
                     "icon": "arrowRight",
                     "iconPosition": "right",
@@ -67,12 +50,30 @@
             ],
             "labelStyle": "secondary",
             "type": "SubNav"
+        },
+        {
+            "label": "Pricing",
+            "altText": "Pricing",
+            "url": "/pricing",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
+        },
+        {
+            "label": "Documentation",
+            "altText": "Documentation",
+            "url": "/careers",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
         }
     ],
     "secondaryLinks": [
         {
-            "label": "Sign up",
-            "altText": "Sign up",
+            "label": "Download",
+            "altText": "Download",
             "url": "/",
             "icon": "arrowRight",
             "iconPosition": "right",
@@ -80,7 +81,8 @@
             "type": "Button"
         },
         {
-            "label": "Log in",
+            "label": "Contact",
+            "altText": "Contact",
             "url": "/",
             "icon": "arrowRight",
             "iconPosition": "right",
