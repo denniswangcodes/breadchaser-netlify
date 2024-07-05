@@ -30,7 +30,7 @@
                         },
                         {
                             "label": "Pricing",
-                            "altText": null,
+                            "altText": "Pricing",
                             "url": "/pricing",
                             "showIcon": null,
                             "icon": "arrowRight",
@@ -41,7 +41,7 @@
                         },
                         {
                             "label": "Documentation",
-                            "altText": null,
+                            "altText": "Documentation",
                             "url": "/",
                             "showIcon": null,
                             "icon": "arrowRight",

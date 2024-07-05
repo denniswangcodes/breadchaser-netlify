@@ -49,6 +49,16 @@ sections:
           - pl-16
           - pb-16
           - pr-16
+  - title: Divider
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-5
+          - pl-5
+          - pb-5
+          - pr-5
+    type: DividerSection
   - subtitle: Award winning enterprises trust us
     images:
       - url: /images/empathy-logo.svg
@@ -210,17 +220,17 @@ sections:
   #   type: FeaturedPostsSection
   #   hoverEffect: move-up
   - title:
-      text: List of features here
+      text: Key Features
       color: text-primary
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Featured items section subtitle
+    # subtitle: Featured items section subtitle
     items:
       - title: Feature Item One
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
+        # tagline: This is the tagline
+        # subtitle: This is the item subtitle
         text: |
           Follow the tutorial to build your first Netlify Create site.
         image:
@@ -242,8 +252,8 @@ sections:
             flexDirection: col
         type: FeaturedItem
       - title: Feature Item Two
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
+        # tagline: This is the tagline
+        # subtitle: This is the item subtitle
         text: |
           Follow the tutorial to build your first awesome Netlify Create site.
         image:
@@ -265,8 +275,8 @@ sections:
             flexDirection: col
         type: FeaturedItem
       - title: Feature Item Three
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
+        # tagline: This is the tagline
+        # subtitle: This is the item subtitle
         text: |
           Learn from the tutorial and build your first awesome Netlify Create site.
         image:
@@ -300,16 +310,6 @@ sections:
       subtitle:
         textAlign: center
     type: FeaturedItemsSection
-  # - title: Divider
-  #   colors: bg-light-fg-dark
-  #   styles:
-  #     self:
-  #       padding:
-  #         - pt-7
-  #         - pl-7
-  #         - pb-7
-  #         - pr-7
-  #   type: DividerSection
   - title:
       text: Grow your business 10x faster
       color: text-dark
@@ -317,7 +317,7 @@ sections:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: This is a subtitle
+    # subtitle: This is a subtitle
     text: |-
       Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
       Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
@@ -366,7 +366,7 @@ sections:
         self:
           textAlign: left
       type: TitleBlock
-    subtitle: Section with a video subtitle
+    # subtitle: Section with a video subtitle
     text: |-
       Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
       Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
@@ -427,10 +427,10 @@ sections:
       url: /images/hero2.svg
       altText: Fun feature preview
       type: ImageBlock
-    badge:
-      label: This is a badge
-      color: text-primary
-      type: Badge
+    # badge:
+    #   label: This is a badge
+    #   color: text-primary
+    #   type: Badge
     colors: bg-light-fg-dark
     styles:
       self:
@@ -462,10 +462,10 @@ sections:
       url: /images/hero3.svg
       altText: Dope design preview
       type: ImageBlock
-    badge:
-      label: This is a badge
-      color: text-primary
-      type: Badge
+    # badge:
+    #   label: This is a badge
+    #   color: text-primary
+    #   type: Badge
     colors: bg-light-fg-dark
     styles:
       self:
@@ -477,10 +477,10 @@ sections:
     styles:
       self:
         padding:
-          - pt-7
-          - pl-7
-          - pb-7
-          - pr-7
+          - pt-5
+          - pl-5
+          - pb-5
+          - pr-5
     type: DividerSection
   - type: CarouselSection
     title: null
