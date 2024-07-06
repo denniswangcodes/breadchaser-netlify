@@ -297,6 +297,75 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
+      - title: Feature Item Two
+        # tagline: This is the tagline
+        # subtitle: This is the item subtitle
+        text: |
+          Follow the tutorial to build your first awesome Netlify Create site.
+        image:
+          url: /images/abstract-feature2.svg
+          altText: Placeholder image
+          styles:
+            self:
+              borderRadius: x-large
+          type: ImageBlock
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: x-large
+            flexDirection: col
+        type: FeaturedItem
+      - title: Feature Item Two
+        # tagline: This is the tagline
+        # subtitle: This is the item subtitle
+        text: |
+          Follow the tutorial to build your first awesome Netlify Create site.
+        image:
+          url: /images/abstract-feature2.svg
+          altText: Placeholder image
+          styles:
+            self:
+              borderRadius: x-large
+          type: ImageBlock
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: x-large
+            flexDirection: col
+        type: FeaturedItem
+      - title: Feature Item Two
+        # tagline: This is the tagline
+        # subtitle: This is the item subtitle
+        text: |
+          Follow the tutorial to build your first awesome Netlify Create site.
+        image:
+          url: /images/abstract-feature2.svg
+          altText: Placeholder image
+          styles:
+            self:
+              borderRadius: x-large
+          type: ImageBlock
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: x-large
+            flexDirection: col
+        type: FeaturedItem
     variant: three-col-grid
     colors: bg-neutral-fg-dark
     styles:
@@ -674,7 +743,7 @@ sections:
       text: Generic Section With A Form
       color: text-dark
       type: TitleBlock
-    subtitle: Section with a form subtitle
+    # subtitle: Section with a form subtitle
     text: |-
       Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
       Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet

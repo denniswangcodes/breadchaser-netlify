@@ -24,7 +24,7 @@
             "altText": "Features",
             "links": [
                 {
-                    "label": "Feature 1",
+                    "label": "Cover Letter",
                     "url": "/",
                     "icon": "arrowRight",
                     "iconPosition": "right",
@@ -32,7 +32,7 @@
                     "type": "Link"
                 },
                 {
-                    "label": "Feature 2",
+                    "label": "Cold Intro",
                     "url": "/",
                     "icon": "arrowRight",
                     "iconPosition": "right",
@@ -40,7 +40,23 @@
                     "type": "Link"
                 },
                 {
-                    "label": "Feature 3",
+                    "label": "Q & A",
+                    "url": "/",
+                    "icon": "arrowRight",
+                    "iconPosition": "right",
+                    "style": "secondary",
+                    "type": "Link"
+                },
+                {
+                    "label": "Custom Prompt",
+                    "url": "/",
+                    "icon": "arrowRight",
+                    "iconPosition": "right",
+                    "style": "secondary",
+                    "type": "Link"
+                },
+                {
+                    "label": "Smart Parsing",
                     "url": "/",
                     "icon": "arrowRight",
                     "iconPosition": "right",

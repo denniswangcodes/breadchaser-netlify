@@ -9,19 +9,20 @@ sections:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: This is the subtitle for the pricing section
+    # subtitle: This is the subtitle for the pricing section
     plans:
       - title: Standard
         price: Free
         details: No credit card required
         description: >-
-          Sed ut perspiciatis unde omnis, iste natus error sit voluptatem
-          accusantium doloremque.
+          Free membership for serious job seeking professionals to try out our core services and simplify their job search experiences.
         features:
-          - Feature one
-          - Feature two
-          - Feature three
-          - Feature four
+          - AI cover letter based on resume or summary
+          - AI answers to interview/application uestions
+          - AI networking messages and cold intros
+          - Smart parsing for LinkedIn, Indeed and more
+          - No GPT key or additional AI setup required
+          - Daily 100 breadcrumbs for AI generation
         image:
           url: /images/abstract-feature1.svg
           altText: Pricing plan 1
@@ -47,13 +48,10 @@ sections:
         price: $9.99
         details: per month
         description: >-
-          Sed ut perspiciatis unde omnis, iste natus error sit voluptatem
-          accusantium doloremque.
+          Paid membership for committed job seekers who apply, network, and interview on a higher frequency and intensiy, billed monthly and cancel anytime.
         features:
-          - Feature one
-          - Feature two
-          - Feature three
-          - Feature four
+          - All the standard tier features
+          - Unlimited breadcrumbs (yum!)
         image:
           url: /images/abstract-feature2.svg
           altText: Pricing plan 2
@@ -79,14 +77,10 @@ sections:
         price: $59.99
         details: per year
         description: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam.
+          Annual plan for the paid membership package for those interested in an one-and-done experience that maximizes the utlization of our services at a discounted price.
         features:
-          - Feature one
-          - Feature two
-          - Feature three
-          - Feature four
-          - Feature five
+          - All the premium tier features
+          - 50% off
         image:
           url: /images/abstract-feature3.svg
           altText: Pricing plan 3
