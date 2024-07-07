@@ -77,33 +77,13 @@
             "type": "Link"
         },
         {
-            "label": "Documentation",
-            "altText": "Documentation",
+            "label": "Contact",
+            "altText": "Contact",
             "url": "/careers",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
             "type": "Link"
-        }
-    ],
-    "secondaryLinks": [
-        {
-            "label": "Download",
-            "altText": "Download",
-            "url": "/",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "secondary",
-            "type": "Button"
-        },
-        {
-            "label": "Contact",
-            "altText": "Contact",
-            "url": "/",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "primary",
-            "type": "Button"
         }
     ],
     "variant": "logo-left-primary-nav-centered",

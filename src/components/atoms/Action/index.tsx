@@ -4,7 +4,7 @@ import { iconMap } from '../../svgs';
 import Link from '../Link';
 
 export default function Action(props) {
-    const { elementId, className, label, altText, url, showIcon, icon, iconPosition = 'right', style = 'primary' } = props;
+    const { elementId, className, label, altText, url, target, showIcon, icon, iconPosition = 'right', style = 'primary' } = props;
     const IconComponent = icon ? iconMap[icon] : null;
     const fieldPath = props['data-sb-field-path'];
     const annotations = fieldPath
@@ -17,6 +17,7 @@ export default function Action(props) {
             href={url}
             aria-label={altText}
             id={elementId}
+            target={target}
             className={classNames(
                 'sb-component',
                 'sb-component-block',
