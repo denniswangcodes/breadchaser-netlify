@@ -1,9 +1,9 @@
 ---
-title: Blog
-slug: /blog
-numOfPostsPerPage: 12
-enableSearch: false
-topSections:
+title: About
+slug: /about
+# numOfPostsPerPage: 12
+# enableSearch: false
+sections:
   - title:
       text: Mission Statement
       color: text-dark
@@ -55,13 +55,13 @@ styles:
   title:
     textAlign: center
 seo:
-  metaTitle: Blog - Demo site
+  metaTitle: About | Breadchaser
   metaDescription: >-
     This is the blog of the demo site where we post about technology, product,
     and design.
   socialImage: /images/img-placeholder.svg
   type: Seo
-type: PostFeedLayout
+type: PageLayout
 # bottomSections: []
 # postFeed:
 #   type: PagedPostsSection

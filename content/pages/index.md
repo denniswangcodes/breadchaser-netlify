@@ -75,7 +75,7 @@ sections:
           - pb-5
           - pr-5
     type: DividerSection
-  - subtitle: Our users have recieved offers from...
+  - subtitle: Our users have recieved offers from
     images:
       - url: /images/empathy-logo.svg
         altText: Empathy logo
@@ -445,7 +445,7 @@ sections:
   #   type: GenericSection
   - type: GenericSection
     title:
-      text: Generic section with a video
+      text: Cover Letter
       color: text-dark
       styles:
         self:
@@ -453,10 +453,7 @@ sections:
       type: TitleBlock
     # subtitle: Section with a video subtitle
     text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+      Create custom cover letter based on your resume and professional summary for the position or company that you are applying to with the power of AI as well as custom prompting.
     actions: []
     media:
       title: Title of the video
@@ -487,13 +484,12 @@ sections:
       subtitle:
         textAlign: left
   - title:
-      text: Social Media Management
+      text: Intro Message
       color: text-dark
       type: TitleBlock
-    subtitle: Increase your reach
+    # subtitle: Increase your reach
     text: >
-      A service that helps businesses to manage their social media accounts and
-      posts.
+      Create messages for cold introduction, referral introduction, application follow-up, and much more.
     # actions:
     #   - label: Get started
     #     url: /
@@ -539,13 +535,12 @@ sections:
         flexDirection: row-reverse
     type: GenericSection
   - title:
-      text: Social Media Management
+      text: Question & Answer
       color: text-dark
       type: TitleBlock
-    subtitle: Increase your reach
+    # subtitle: Increase your reach
     text: >
-      A service that helps businesses to manage their social media accounts and
-      posts.
+      Enter questions asked of you during the application process and populate answer options to help you finalize your response.
     # actions:
     #   - label: Get started
     #     url: /
@@ -590,13 +585,12 @@ sections:
         alignItems: center
     type: GenericSection
   - title:
-      text: Business Consulting
+      text: Initiate Meeting
       color: text-dark
       type: TitleBlock
-    subtitle: Be in good company
+    # subtitle: Be in good company
     text: >
-      A service that provides advice and guidance to startups and small
-      businesses.
+      Generate a personalized engagement template to send and initiate a meeting in the varios stages of your application process.
     # actions:
     #   - label: Get started
     #     url: /
@@ -653,13 +647,13 @@ sections:
     type: DividerSection
   - type: CarouselSection
     title: null
-    subtitle: What our customers say about us
+    subtitle: What our users say about us
     items:
       - title: >-
           “A designer knows he has achieved perfection not when there is nothing
           left to add, but when there is nothing left to take away.”
-        tagline: Testimonial 1
-        subtitle: 'Maria Walters, Company'
+        tagline: Testimonial
+        subtitle: 'Jon Doe, Sample Company'
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
@@ -687,7 +681,7 @@ sections:
         type: FeaturedItem
       - title: >-
           "Design is a plan for arranging elements in such a way as best to accomplish a particular purpose."
-        tagline: Testimonial 2
+        tagline: Testimonial
         subtitle: 'John Doe, Company'
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -716,7 +710,7 @@ sections:
         type: FeaturedItem
       - title: >-
           "Design is how it works, how it functions. Good design doesn't just make a product aesthetically pleasing, it makes it a pleasure to use."
-        tagline: Testimonial 3
+        tagline: Testimonial
         subtitle: 'Maria Walters, Company'
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -731,94 +725,6 @@ sections:
           type: ImageBlock
         actions: []
         colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          “A designer knows he has achieved perfection not when there is nothing
-          left to add, but when there is nothing left to take away.”
-        tagline: Testimonial 4
-        subtitle: 'Maria Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          "Design can be art. Design can be aesthetics. Design is so simple, that's why it is so complicated."
-        tagline: Testimonial 5
-        subtitle: 'Jane Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          “Quote from some important person goes right here. I love using Netlify Create.”
-        tagline: Testimonial 6
-        subtitle: 'Jane Doe, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/img-placeholder-dark.png
-          altText: Jane Doe
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-dark-fg-light
         styles:
           self:
             padding:
@@ -839,67 +745,8 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-  # - title:
-  #     text: Generic Section With A Form
-  #     color: text-dark
-  #     type: TitleBlock
-  #   # subtitle: Section with a form subtitle
-  #   text: |-
-  #     Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-  #     Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-  #     erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-  #     vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
-  #   media:
-  #     fields:
-  #       - name: name
-  #         label: Name
-  #         hideLabel: true
-  #         placeholder: Your name
-  #         isRequired: true
-  #         width: full
-  #         type: TextFormControl
-  #       - name: email
-  #         label: Email
-  #         hideLabel: true
-  #         placeholder: Your email
-  #         isRequired: true
-  #         width: full
-  #         type: EmailFormControl
-  #       - name: message
-  #         label: Message
-  #         hideLabel: true
-  #         placeholder: Your message
-  #         width: full
-  #         type: TextareaFormControl
-  #     elementId: contact-form
-  #     styles:
-  #       self:
-  #         padding:
-  #           - pt-6
-  #           - pb-6
-  #           - pl-6
-  #           - pr-6
-  #         borderColor: border-dark
-  #         borderStyle: solid
-  #         borderWidth: 1
-  #         borderRadius: large
-  #     type: FormBlock
-  #     submitButton:
-  #       type: SubmitButtonFormControl
-  #       label: Submit
-  #       showIcon: false
-  #       icon: arrowRight
-  #       iconPosition: right
-  #       style: primary
-  #       elementId: null
-  #   badge:
-  #     label: Contact Us
-  #     color: text-primary
-  #     type: Badge
-  #   colors: bg-light-fg-dark
-  #   type: GenericSection
 seo:
-  metaTitle: Home - Demo site
+  metaTitle: Home | Breadchaser
   metaDescription: This demo site is built with Netlify Create.
   socialImage: /images/main-hero.jpg
   type: Seo

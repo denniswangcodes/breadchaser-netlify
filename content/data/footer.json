@@ -4,7 +4,7 @@
         "altText": "Logo light",
         "type": "ImageBlock"
     },
-    "text": "A description of your brand",
+    "text": "Breadchaser",
     "primaryLinks": {
         "title": "Product",
         "links": [
@@ -24,14 +24,6 @@
                 "iconPosition": "right",
                 "style": "secondary",
                 "type": "Link"
-            },
-            {
-                "label": "Documentation",
-                "url": "/",
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "style": "secondary",
-                "type": "Link"
             }
         ],
         "type": "FooterLinksGroup"
@@ -40,8 +32,7 @@
         "title": "Company",
         "links": [
             {
-                "label": "Careers",
-                "altText": "careers page",
+                "label": "Contact",
                 "url": "/careers",
                 "icon": "arrowRight",
                 "iconPosition": "right",
@@ -49,7 +40,7 @@
                 "type": "Link"
             },
             {
-                "label": "Blog",
+                "label": "About",
                 "url": "/blog",
                 "icon": "arrowRight",
                 "iconPosition": "right",

@@ -1,10 +1,12 @@
 {
     "logo": {
-        "url": "/images/logo-dark.svg",
-        "altText": "Logo dark",
+        "url": "/images/icon.png",
+        "altText": "Breadchaser logo",
         "styles": {
             "self": {
-                "margin": ["mr-3"]
+                "margin": ["mr-3"],
+                "width": "50px",
+                "height": "50px"
             }
         },
         "type": "ImageBlock"
@@ -13,7 +15,7 @@
         {
             "label": "About",
             "altText": "About",
-            "url": "/blog",
+            "url": "/about",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
@@ -22,50 +24,11 @@
         {
             "label": "Features",
             "altText": "Features",
-            "links": [
-                {
-                    "label": "Cover Letter",
-                    "url": "/",
-                    "icon": "arrowRight",
-                    "iconPosition": "right",
-                    "style": "secondary",
-                    "type": "Link"
-                },
-                {
-                    "label": "Cold Intro",
-                    "url": "/",
-                    "icon": "arrowRight",
-                    "iconPosition": "right",
-                    "style": "secondary",
-                    "type": "Link"
-                },
-                {
-                    "label": "Q & A",
-                    "url": "/",
-                    "icon": "arrowRight",
-                    "iconPosition": "right",
-                    "style": "secondary",
-                    "type": "Link"
-                },
-                {
-                    "label": "Custom Prompt",
-                    "url": "/",
-                    "icon": "arrowRight",
-                    "iconPosition": "right",
-                    "style": "secondary",
-                    "type": "Link"
-                },
-                {
-                    "label": "Smart Parsing",
-                    "url": "/",
-                    "icon": "arrowRight",
-                    "iconPosition": "right",
-                    "style": "secondary",
-                    "type": "Link"
-                }
-            ],
-            "labelStyle": "secondary",
-            "type": "SubNav"
+            "url": "/features",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
         },
         {
             "label": "Pricing",
@@ -79,7 +42,7 @@
         {
             "label": "Contact",
             "altText": "Contact",
-            "url": "/careers",
+            "url": "/contact",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
