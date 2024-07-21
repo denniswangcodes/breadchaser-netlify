@@ -1,7 +1,7 @@
 {
     "type": "Person",
     "name": "Dennis Wang",
-    "role": "Staff Software Engineer",
+    "role": "Founding Engineer",
     "image": {
         "url": "/images/avatar3.svg",
         "altText": "Asher Schmitt",
@@ -26,5 +26,5 @@
             "justifyContent": "center"
         }
     },
-    "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.\n"
+    "bio": ""
 }

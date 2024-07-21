@@ -13,13 +13,32 @@ export default function FormBlock(props) {
         return null;
     }
 
-    function handleSubmit(event) {
-        event.preventDefault();
+    const handleSubmit = async (e) => {
+        e.preventDefault();
 
-        const data = new FormData(formRef.current);
-        const value = Object.fromEntries(data.entries());
-        alert(`Form data: ${JSON.stringify(value)}`);
-    }
+        const formData = new FormData(formRef.current);
+        const data = Object.fromEntries(formData.entries());
+        alert(`Form data: ${JSON.stringify(data)}`);
+
+        try {
+            const response = await fetch('/api/contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            });
+
+            if (response.ok) {
+                alert('Message sent successfully!');
+            } else {
+                alert('Failed to send message.');
+            }
+        } catch (error) {
+            console.error('Error submitting form:', error);
+            alert('An error occurred. Please try again.');
+        }
+    };
 
     return (
         <form
@@ -43,7 +62,7 @@ export default function FormBlock(props) {
             id={elementId}
             onSubmit={handleSubmit}
             ref={formRef}
-            data-sb-field-path= {fieldPath}
+            data-sb-field-path={fieldPath}
         >
             <div
                 className={classNames('w-full', 'flex', 'flex-wrap', 'gap-8', mapStyles({ justifyContent: styles?.self?.justifyContent ?? 'flex-start' }))}

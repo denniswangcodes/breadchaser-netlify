@@ -22,7 +22,7 @@ sections:
           - AI networking messages and cold intros
           - Smart parsing for LinkedIn, Indeed and more
           - No GPT key or additional AI setup required
-          - Daily 100 breadcrumbs for AI generation
+          - Daily 100 tokens for AI generations
         image:
           url: /images/abstract-feature1.svg
           altText: Pricing plan 1
@@ -45,19 +45,19 @@ sections:
             borderRadius: large
         type: PricingPlan
       - title: Premium
-        price: $9.99
-        details: per month
+        price: $12.99
+        details: per month (billed monthly)
         description: >-
           Paid membership for committed job seekers who apply, network, and interview on a higher frequency and intensiy, billed monthly and cancel anytime.
         features:
           - All the standard tier features
-          - Unlimited breadcrumbs (yum!)
+          - Unlimited tokens for AI generations
         image:
           url: /images/abstract-feature2.svg
           altText: Pricing plan 2
           type: ImageBlock
         actions:
-          - label: 7-Day Free Trial
+          - label: Try It Now
             url: /
             icon: arrowRight
             iconPosition: right
@@ -74,19 +74,19 @@ sections:
             borderRadius: large
         type: PricingPlan
       - title: Elite
-        price: $59.99
-        details: per year
+        price: $4.99
+        details: per month (billed annually)
         description: >-
           Annual plan for the paid membership package for those interested in an one-and-done experience that maximizes the utlization of our services at a discounted price.
         features:
           - All the premium tier features
-          - 50% off
+          - 60% off
         image:
           url: /images/abstract-feature3.svg
           altText: Pricing plan 3
           type: ImageBlock
         actions:
-          - label: 7-Day Free Trial
+          - label: Try It Now
             url: /
             icon: arrowRight
             iconPosition: right

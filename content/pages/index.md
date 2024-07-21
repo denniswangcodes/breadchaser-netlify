@@ -21,19 +21,19 @@ sections:
         style: primary
         elementId: ''
         type: Button
-      - label: See Tutorials
-        altText: ''
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
-        type: Link
+      # - label: See Tutorials
+      #   altText: ''
+      #   url: /
+      #   showIcon: true
+      #   icon: arrowRight
+      #   iconPosition: right
+      #   style: primary
+      #   elementId: ''
+      #   type: Link
     media:
       title: Title of the video
-      url: /images/placeholder-video.mp4
-      controls: false
+      url: /images/app-demo-60-sec.mp4
+      controls: true
       aspectRatio: '16:9'
       styles:
         self:
@@ -42,10 +42,10 @@ sections:
             - pb-2
             - pl-2
             - pr-2
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
+          # borderColor: border-dark
+          # borderStyle: solid
+          # borderWidth: 1
+          # borderRadius: large
       type: VideoBlock
       autoplay: true
       loop: true
@@ -75,7 +75,7 @@ sections:
           - pb-5
           - pr-5
     type: DividerSection
-  - subtitle: Our users have recieved offers from
+  - subtitle: Our users have heard back from
     images:
       - url: /images/empathy-logo.svg
         altText: Empathy logo
@@ -447,21 +447,17 @@ sections:
     title:
       text: Cover Letter
       color: text-dark
-      styles:
-        self:
-          textAlign: left
       type: TitleBlock
-    # subtitle: Section with a video subtitle
-    text: |-
+    text: >
       Create custom cover letter based on your resume and professional summary for the position or company that you are applying to with the power of AI as well as custom prompting.
     actions: []
     media:
       title: Title of the video
-      url: /images/placeholder-video.mp4
+      url: /images/cover-letter-demo-30-sec.mp4
       autoplay: true
       loop: true
       muted: true
-      controls: false
+      controls: true
       aspectRatio: '16:9'
       styles:
         self:
@@ -470,19 +466,18 @@ sections:
             - pb-2
             - pl-2
             - pr-2
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
+          # borderColor: border-dark
+          # borderStyle: solid
+          # borderWidth: 1
+          # borderRadius: large
       type: VideoBlock
     elementId: null
     colors: bg-light-fg-dark
     styles:
       self:
-        flexDirection: row
-        justifyContent: center
-      subtitle:
-        textAlign: left
+        alignItems: center
+      # subtitle:
+      #   textAlign: left
   - title:
       text: Intro Message
       color: text-dark
@@ -506,8 +501,8 @@ sections:
     #     type: Link
     media:
       title: Title of the video
-      url: /images/placeholder-video.mp4
-      controls: false
+      url: /images/cold-intro-demo-30-sec.mp4
+      controls: true
       aspectRatio: '16:9'
       styles:
         self:
@@ -516,10 +511,10 @@ sections:
             - pb-2
             - pl-2
             - pr-2
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
+          # borderColor: border-dark
+          # borderStyle: solid
+          # borderWidth: 1
+          # borderRadius: large
       type: VideoBlock
       autoplay: true
       loop: true
@@ -535,7 +530,7 @@ sections:
         flexDirection: row-reverse
     type: GenericSection
   - title:
-      text: Question & Answer
+      text: Application Question
       color: text-dark
       type: TitleBlock
     # subtitle: Increase your reach
@@ -557,7 +552,7 @@ sections:
     #     type: Link
     media:
       title: Title of the video
-      url: /images/placeholder-video.mp4
+      url: /images/application-questions-demo-30-sec.mp4
       controls: false
       aspectRatio: '16:9'
       styles:
@@ -567,10 +562,10 @@ sections:
             - pb-2
             - pl-2
             - pr-2
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
+          # borderColor: border-dark
+          # borderStyle: solid
+          # borderWidth: 1
+          # borderRadius: large
       type: VideoBlock
       autoplay: true
       loop: true
@@ -585,7 +580,7 @@ sections:
         alignItems: center
     type: GenericSection
   - title:
-      text: Initiate Meeting
+      text: Book Meeting
       color: text-dark
       type: TitleBlock
     # subtitle: Be in good company
@@ -607,7 +602,7 @@ sections:
     #     type: Link
     media:
       title: Title of the video
-      url: /images/placeholder-video.mp4
+      url: /images/book-meeting-demo-30-sec.mp4
       controls: false
       aspectRatio: '16:9'
       styles:
@@ -617,10 +612,10 @@ sections:
             - pb-2
             - pl-2
             - pr-2
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
+          # borderColor: border-dark
+          # borderStyle: solid
+          # borderWidth: 1
+          # borderRadius: large
       type: VideoBlock
       autoplay: true
       loop: true

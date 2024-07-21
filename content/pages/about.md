@@ -8,7 +8,7 @@ sections:
       text: Mission Statement
       color: text-dark
       type: TitleBlock
-    subtitle: As the age of artificial intelligence dawns upon us, our way of life must evolve alongside the technology that sustains it. Gone are the days of switching between tabs and windows to copy and paste the information needed to apply, network, and interview in the professional world. We imagine a new, highly customziable, and intuitively personal way to immerse yourself in the job market. Our chrome extension aims to harness the power of AI to simplify the process of employer/applicant interaction and enahnce the way you present your full potential to the available markets. We believe that our product will benefit job seekers, recruiters, hiring managers, those who are just casual browsing for opportunities, and those who are aiming to expand their network.
+    subtitle: As the age of artificial intelligence dawns upon us, our way of life must evolve alongside the technology that sustains it. Gone are the days of switching between tabs and windows to copy and paste the information needed to apply, network, and interview in the professional world. We imagine a new, highly customziable, and intuitively personal way to immerse yourself in the job market. Our Chrome extension aims to harness the power of AI to simplify the process of employer/applicant interaction and enahnce the way you present your full potential to the available markets. We believe that our product will benefit job seekers, recruiters, hiring managers, those who are just casual browsing for opportunities, and those who are aiming to expand their network.
     # posts:
     #   - content/pages/blog/top-ten-lessons-we-learned.md
     # showThumbnail: true
