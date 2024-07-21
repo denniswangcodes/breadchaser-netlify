@@ -58,7 +58,7 @@ sections:
           type: ImageBlock
         actions:
           - label: Try It Now
-            url: /
+            url: https://chromewebstore.google.com/detail/breadchaser-custom-networ/mgbijplmiommnaannjomlaiinkhhjblb?hl=en-US&utm_source=ext_sidebar
             icon: arrowRight
             iconPosition: right
             style: secondary
@@ -87,7 +87,7 @@ sections:
           type: ImageBlock
         actions:
           - label: Try It Now
-            url: /
+            url: https://chromewebstore.google.com/detail/breadchaser-custom-networ/mgbijplmiommnaannjomlaiinkhhjblb?hl=en-US&utm_source=ext_sidebar
             icon: arrowRight
             iconPosition: right
             style: secondary
