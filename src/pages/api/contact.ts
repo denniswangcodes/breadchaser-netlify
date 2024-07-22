@@ -1,5 +1,8 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import nodemailer from 'nodemailer';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
     if (req.method === 'POST') {
@@ -12,8 +15,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
             port: 587,
             secure: false, // true for 465, false for other ports
             auth: {
-                user: 'breadchaserai@gmail.com', // Replace with your email
-                pass: 'TjNtdn*DKMnK4s' // Replace with your email password
+                user: process.env.EMAIL_USERNAME, // Replace with your email
+                pass: process.env.EMAIL_PASSWORD // Replace with your email password
             }
         });
 
