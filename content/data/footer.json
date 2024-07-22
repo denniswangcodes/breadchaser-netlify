@@ -1,7 +1,14 @@
 {
     "logo": {
-        "url": "/images/logo-white.svg",
-        "altText": "Logo light",
+        "url": "/images/breadchaser-logo.png",
+        "altText": "Breadchaser logo",
+        "styles": {
+            "self": {
+                "margin": ["mr-3"],
+                "width": "50px",
+                "height": "50px"
+            }
+        },
         "type": "ImageBlock"
     },
     "text": "Breadchaser",
@@ -11,7 +18,7 @@
             {
                 "label": "Features",
                 "altText": "Features page",
-                "url": "/",
+                "url": "/features",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
@@ -33,7 +40,7 @@
         "links": [
             {
                 "label": "Contact",
-                "url": "/careers",
+                "url": "/contact",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
@@ -41,7 +48,7 @@
             },
             {
                 "label": "About",
-                "url": "/blog",
+                "url": "/about",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
@@ -52,12 +59,6 @@
     },
     "socialLinks": [
         {
-            "altText": "GitHub link",
-            "url": "https://github.com/netlify",
-            "icon": "github",
-            "type": "Social"
-        },
-        {
             "altText": "Twitter link",
             "url": "https://twitter.com/netlify",
             "icon": "twitter",
@@ -67,12 +68,6 @@
             "altText": "LinkedIn link",
             "url": "https://www.linkedin.com/company/netlify",
             "icon": "linkedin",
-            "type": "Social"
-        },
-        {
-            "altText": "Email link",
-            "url": "/",
-            "icon": "mail",
             "type": "Social"
         }
     ],

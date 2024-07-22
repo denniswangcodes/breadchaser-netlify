@@ -117,12 +117,10 @@ sections:
     # subtitle: Subtitle goes here
     items:
       - type: FeaturedItem
-        title: 500k
-        subtitle: Numbers Done
+        title: 5x Increased
+        subtitle: Network Connections
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Expand your network to reach more connections in your job search journey with easier and faster way to send introduction messages, follow up on referrals, and book meetings.
         actions: []
         elementId: null
         colors: bg-neutralAlt-fg-dark
@@ -145,12 +143,10 @@ sections:
           styles:
             self:
               borderRadius: x-large
-      - title: 20x
-        subtitle: The Job Stuff
+      - title: 10x More
+        subtitle: Applications Sent
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Complete more applications in shorter time frame with AI enhanced cover letter, answers to application questions, and custom prompting.
         image:
           url: /images/icon2.svg
           altText: Featured icon two
@@ -170,12 +166,10 @@ sections:
             textAlign: left
             justifyContent: center
         type: FeaturedItem
-      - title: 200%
-        subtitle: Faster
+      - title: 300% Faster
+        subtitle: Applying Process
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Complete a high quality and personalized application in less than 60 seconds, supported by smart parsing, multi-platform support, and custom prompting.
         image:
           url: /images/icon3.svg
           altText: Featured icon three
@@ -484,7 +478,7 @@ sections:
       type: TitleBlock
     # subtitle: Increase your reach
     text: >
-      Create messages for cold introduction, referral introduction, application follow-up, and much more.
+      Create messages or templates for cold introduction, referral introduction, application follow-up, and much more.
     # actions:
     #   - label: Get started
     #     url: /
@@ -647,7 +641,7 @@ sections:
       - title: >-
           “A designer knows he has achieved perfection not when there is nothing
           left to add, but when there is nothing left to take away.”
-        tagline: Testimonial
+        # tagline: Testimonial
         subtitle: 'Jon Doe, Sample Company'
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -676,7 +670,7 @@ sections:
         type: FeaturedItem
       - title: >-
           "Design is a plan for arranging elements in such a way as best to accomplish a particular purpose."
-        tagline: Testimonial
+        # tagline: Testimonial
         subtitle: 'John Doe, Company'
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -705,7 +699,7 @@ sections:
         type: FeaturedItem
       - title: >-
           "Design is how it works, how it functions. Good design doesn't just make a product aesthetically pleasing, it makes it a pleasure to use."
-        tagline: Testimonial
+        # tagline: Testimonial
         subtitle: 'Maria Walters, Company'
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
