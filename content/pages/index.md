@@ -639,16 +639,13 @@ sections:
     subtitle: What our users say about us
     items:
       - title: >-
-          “A designer knows he has achieved perfection not when there is nothing
-          left to add, but when there is nothing left to take away.”
+          “Breadchaser helped me sent out more applications in less time and it integrated well with LinkedIn.”
         # tagline: Testimonial
-        subtitle: 'Jon Doe, Sample Company'
+        subtitle: 'Alexander Krut, Wells Fargo'
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Alex is a software engineer at Wells Fargo, a nationally renowned fortune 100 financial institution.
         image:
-          url: /images/person-placeholder-light.png
+          url: /images/avatar1.svg
           altText: Maria Walters
           styles:
             self:
@@ -669,15 +666,13 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          "Design is a plan for arranging elements in such a way as best to accomplish a particular purpose."
+          "I've used Breadchaser to help me in increasing lead generations and network outreach to better assist those who need my company's services."
         # tagline: Testimonial
-        subtitle: 'John Doe, Company'
+        subtitle: 'Nick Montes, Achieve Intelligence'
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Nick is the Founder at Achieve Intelligence, an enterprise architecture consultancy based in Oxford, UK and providing services globally.
         image:
-          url: /images/person-placeholder-light.png
+          url: /images/avatar2.svg
           altText: John Doe
           styles:
             self:
@@ -698,15 +693,13 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          "Design is how it works, how it functions. Good design doesn't just make a product aesthetically pleasing, it makes it a pleasure to use."
+          "I enjoyed using Breadchaser to customize cold intro messages and cover letter based on the companies I was applying to."
         # tagline: Testimonial
-        subtitle: 'Maria Walters, Company'
+        subtitle: 'Dennis Wang, Nonprofit Circle'
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Dennis is a full-stack developer at Nonprofit Circle, a start up organization that connects other non-protif corganizations with community resources and support.
         image:
-          url: /images/person-placeholder-light.png
+          url: /images/avatar3.svg
           altText: Maria Walters
           styles:
             self:
