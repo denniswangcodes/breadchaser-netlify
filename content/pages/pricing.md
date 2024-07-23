@@ -24,8 +24,12 @@ sections:
           - No GPT key or additional AI setup required
           - Daily 100 tokens for AI generations
         image:
-          url: /images/abstract-feature1.svg
+          url: /images/silver-badge.png
           altText: Pricing plan 1
+          styles:
+            self:
+              width: 400px
+              height: 400px
           type: ImageBlock
         actions:
           - label: Try It Now
@@ -53,8 +57,12 @@ sections:
           - All the standard tier features
           - Unlimited tokens for AI generations
         image:
-          url: /images/abstract-feature2.svg
+          url: /images/gold-badge.png
           altText: Pricing plan 2
+          styles:
+            self:
+              width: 400px
+              height: 400px
           type: ImageBlock
         actions:
           - label: Try It Now
@@ -82,8 +90,12 @@ sections:
           - All the premium tier features
           - 60% off
         image:
-          url: /images/abstract-feature3.svg
+          url: /images/diamond-badge.png
           altText: Pricing plan 3
+          styles:
+            self:
+              width: 400px
+              height: 400px
           type: ImageBlock
         actions:
           - label: Try It Now
