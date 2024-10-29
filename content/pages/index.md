@@ -4,7 +4,7 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Boost your hireability, expand your network, and chase that bread.
+      text: Expand your network, get hired in tech, and chase that bread.
       color: text-dark
       type: TitleBlock
     subtitle:
