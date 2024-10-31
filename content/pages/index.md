@@ -4,14 +4,20 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Expand your network, get hired in tech, and chase that bread.
+      text: Land your dream tech job 👉 Join our FREE 3-Day Career Launch Challenge
       color: text-dark
       type: TitleBlock
     subtitle:
     text: >
-      Revolutionize your job search experience with our AI-powered Google Chrome extension and a highly customizable journey that aims to showcase your full potential to the available markets.
+      I used Breadchaser to get a $115,000 tech job offer in 1.5 weeks, and you can too.
+
+
+      Join 100+ professionals who use our AI-powered cover letter & networking tool to book more 1st-round interviews.
+
+
+      Begin your (life-changing) journey today & sign up for our free 3-Day Career Launch Challenge (delivered by email).
     actions:
-      - label: Download Extension
+      - label: Install Extension
         altText: ''
         url: https://chromewebstore.google.com/detail/breadchaser-custom-networ/mgbijplmiommnaannjomlaiinkhhjblb?hl=en-US&utm_source=ext_sidebar
         target: '_blank'
@@ -21,15 +27,20 @@ sections:
         style: primary
         elementId: ''
         type: Button
-      # - label: See Tutorials
-      #   altText: ''
-      #   url: /
-      #   showIcon: true
-      #   icon: arrowRight
-      #   iconPosition: right
-      #   style: primary
-      #   elementId: ''
-      #   type: Link
+      - label: Join 3-Day Career Launch Challenge
+        altText: ''
+        url: https://ddcf993b.sibforms.com/serve/MUIFAKgHGe2-kLwpOqt85wsAZcqsPFiZoLdh0_z-O80bFuAqG2ugBvFNrDsl5q9aq4B1DvxkqbhaXCCSSC-ypVq11leNCd9BtslGIdyKQIEGPt3lzdHEmAOMvDK0mUbXvBRr8-jh0E5p_xxHOf7VEfK9mr4QWQWgzgPHNQCD-VBHrAS33X7_1B2slauZuBx0_vRaUuweol02QTNG
+        target: '_blank'
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: secondary
+        elementId: ''
+        type: Button
+        styles:
+          self:
+            background: '#2DC23F'
+            textColor: white
     media:
       title: Title of the video
       url: /images/app-demo-60-sec.mp4
@@ -108,7 +119,7 @@ sections:
     type: ImageGallerySection
   - type: FeaturedItemsSection
     title:
-      text: Key Benefits
+      text: 3-Day Career Launch Challenge
       color: text-dark
       styles:
         self:
@@ -117,10 +128,16 @@ sections:
     # subtitle: Subtitle goes here
     items:
       - type: FeaturedItem
-        title: 5x Increased
-        subtitle: Network Connections
+        title: Day 1
+        subtitle: Get Your Foot in the Door
         text: >-
-          Expand your network to reach more connections in your job search journey with easier and faster way to send introduction messages, follow up on referrals, and book meetings.
+          Craft personalized cover letters & answers to custom application questions with the power of AI.
+
+
+          We take in your resume info & job description (via autofill)) to create a hyper-personalized job application.
+
+
+          This allows you to submit more AND better job applications without the work/time investment.
         actions: []
         elementId: null
         colors: bg-neutralAlt-fg-dark
@@ -143,10 +160,16 @@ sections:
           styles:
             self:
               borderRadius: x-large
-      - title: 10x More
-        subtitle: Applications Sent
+      - title: Day 2
+        subtitle: Open Real Conversations
         text: >-
-          Complete more applications in shorter time frame with AI enhanced cover letter, answers to application questions, and custom prompting.
+          Send cold networking messages that get replies.
+
+
+          Use our proven templates to open real conversations without annoying/spamming people.
+
+
+          Instead, we rely on AI to craft messages with unique compliments – tailored to the recipient's background, interests, and story.
         image:
           url: /images/icon2.svg
           altText: Featured icon two
@@ -166,10 +189,14 @@ sections:
             textAlign: left
             justifyContent: center
         type: FeaturedItem
-      - title: 300% Faster
-        subtitle: Applying Process
+      - title: Day 3
+        subtitle: Book 1st-Round Interviews
         text: >-
-          Complete a high quality and personalized application in less than 60 seconds, supported by smart parsing, multi-platform support, and custom prompting.
+          Send follow-up messages proven to book 1st-round interviews.
+
+          If you commit to our daily process of applying to 5 jobs & reaching out to 3 people per job, you will book 1st-round interviews.
+
+          This results in our users booking multiple interviews, getting multiple offers, and using true leverage to negotiate the tech job of their dreams.
         image:
           url: /images/icon3.svg
           altText: Featured icon three
@@ -210,240 +237,29 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-  # - posts:
-  #     - content/pages/blog/case-study-1.md
-  #     - content/pages/blog/case-study-2.md
-  #     - content/pages/blog/case-study-3.md
-  #   showThumbnail: true
-  #   showDate: true
-  #   showAuthor: true
-  #   variant: three-col-grid
-  #   colors: bg-light-fg-dark
-  #   styles:
-  #     self:
-  #       padding:
-  #         - pt-16
-  #         - pl-16
-  #         - pb-16
-  #         - pr-16
-  #       justifyContent: center
-  #   type: FeaturedPostsSection
-  #   hoverEffect: move-up
-  # - title:
-  #     text: Key Features
-  #     color: text-primary
-  #     styles:
-  #       self:
-  #         textAlign: center
-  #     type: TitleBlock
-  #   # subtitle: Featured items section subtitle
-  #   items:
-  #     - title: Feature Item One
-  #       # tagline: This is the tagline
-  #       # subtitle: This is the item subtitle
-  #       text: |
-  #         Follow the tutorial to build your first Netlify Create site.
-  #       image:
-  #         url: /images/abstract-feature1.svg
-  #         altText: Placeholder Image
-  #         styles:
-  #           self:
-  #             borderRadius: x-large
-  #         type: ImageBlock
-  #       colors: bg-light-fg-dark
-  #       styles:
-  #         self:
-  #           padding:
-  #             - pt-8
-  #             - pl-8
-  #             - pb-8
-  #             - pr-8
-  #           borderRadius: x-large
-  #           flexDirection: col
-  #       type: FeaturedItem
-  #     - title: Feature Item Two
-  #       # tagline: This is the tagline
-  #       # subtitle: This is the item subtitle
-  #       text: |
-  #         Follow the tutorial to build your first awesome Netlify Create site.
-  #       image:
-  #         url: /images/abstract-feature2.svg
-  #         altText: Placeholder image
-  #         styles:
-  #           self:
-  #             borderRadius: x-large
-  #         type: ImageBlock
-  #       colors: bg-light-fg-dark
-  #       styles:
-  #         self:
-  #           padding:
-  #             - pt-8
-  #             - pl-8
-  #             - pb-8
-  #             - pr-8
-  #           borderRadius: x-large
-  #           flexDirection: col
-  #       type: FeaturedItem
-  #     - title: Feature Item Three
-  #       # tagline: This is the tagline
-  #       # subtitle: This is the item subtitle
-  #       text: |
-  #         Learn from the tutorial and build your first awesome Netlify Create site.
-  #       image:
-  #         url: /images/abstract-feature1.svg
-  #         altText: Placeholder image
-  #         styles:
-  #           self:
-  #             borderRadius: x-large
-  #         type: ImageBlock
-  #       colors: bg-light-fg-dark
-  #       styles:
-  #         self:
-  #           padding:
-  #             - pt-8
-  #             - pl-8
-  #             - pb-8
-  #             - pr-8
-  #           borderRadius: x-large
-  #           flexDirection: col
-  #       type: FeaturedItem
-  #     - title: Feature Item Two
-  #       # tagline: This is the tagline
-  #       # subtitle: This is the item subtitle
-  #       text: |
-  #         Follow the tutorial to build your first awesome Netlify Create site.
-  #       image:
-  #         url: /images/abstract-feature2.svg
-  #         altText: Placeholder image
-  #         styles:
-  #           self:
-  #             borderRadius: x-large
-  #         type: ImageBlock
-  #       colors: bg-light-fg-dark
-  #       styles:
-  #         self:
-  #           padding:
-  #             - pt-8
-  #             - pl-8
-  #             - pb-8
-  #             - pr-8
-  #           borderRadius: x-large
-  #           flexDirection: col
-  #       type: FeaturedItem
-  #     - title: Feature Item Two
-  #       # tagline: This is the tagline
-  #       # subtitle: This is the item subtitle
-  #       text: |
-  #         Follow the tutorial to build your first awesome Netlify Create site.
-  #       image:
-  #         url: /images/abstract-feature2.svg
-  #         altText: Placeholder image
-  #         styles:
-  #           self:
-  #             borderRadius: x-large
-  #         type: ImageBlock
-  #       colors: bg-light-fg-dark
-  #       styles:
-  #         self:
-  #           padding:
-  #             - pt-8
-  #             - pl-8
-  #             - pb-8
-  #             - pr-8
-  #           borderRadius: x-large
-  #           flexDirection: col
-  #       type: FeaturedItem
-  #     - title: Feature Item Two
-  #       # tagline: This is the tagline
-  #       # subtitle: This is the item subtitle
-  #       text: |
-  #         Follow the tutorial to build your first awesome Netlify Create site.
-  #       image:
-  #         url: /images/abstract-feature2.svg
-  #         altText: Placeholder image
-  #         styles:
-  #           self:
-  #             borderRadius: x-large
-  #         type: ImageBlock
-  #       colors: bg-light-fg-dark
-  #       styles:
-  #         self:
-  #           padding:
-  #             - pt-8
-  #             - pl-8
-  #             - pb-8
-  #             - pr-8
-  #           borderRadius: x-large
-  #           flexDirection: col
-  #       type: FeaturedItem
-  #   variant: three-col-grid
-  #   colors: bg-neutral-fg-dark
-  #   styles:
-  #     self:
-  #       padding:
-  #         - pt-16
-  #         - pl-8
-  #         - pb-16
-  #         - pr-8
-  #       justifyContent: center
-  #     subtitle:
-  #       textAlign: center
-  #   type: FeaturedItemsSection
-  # - title:
-  #     text: Grow your business 10x faster
-  #     color: text-dark
-  #     styles:
-  #       self:
-  #         textAlign: center
-  #     type: TitleBlock
-  #   # subtitle: This is a subtitle
-  #   text: |-
-  #     Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-  #     Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-  #     erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-  #     vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
-  #   media:
-  #     title: Title of the video
-  #     url: /images/placeholder-video.mp4
-  #     controls: false
-  #     aspectRatio: '16:9'
-  #     styles:
-  #       self:
-  #         padding:
-  #           - pt-2
-  #           - pb-2
-  #           - pl-2
-  #           - pr-2
-  #         borderColor: border-dark
-  #         borderStyle: solid
-  #         borderWidth: 1
-  #         borderRadius: large
-  #     type: VideoBlock
-  #     autoplay: true
-  #     loop: true
-  #     muted: true
-  #   # badge:
-  #   #   label: Key Benefits
-  #   #   color: text-primary
-  #   #   styles:
-  #   #     self:
-  #   #       textAlign: center
-  #   #   type: Badge
-  #   colors: bg-light-fg-dark
-  #   styles:
-  #     self:
-  #       flexDirection: col
-  #       justifyContent: center
-  #     subtitle:
-  #       textAlign: center
-  #   type: GenericSection
   - type: GenericSection
     title:
-      text: Cover Letter
+      text: Join Our Challenge Today...
       color: text-dark
       type: TitleBlock
     text: >
-      Create custom cover letter based on your resume and professional summary for the position or company that you are applying to with the power of AI as well as custom prompting.
+      <iframe width="540" height="800" src="https://ddcf993b.sibforms.com/serve/MUIFAKgHGe2-kLwpOqt85wsAZcqsPFiZoLdh0_z-O80bFuAqG2ugBvFNrDsl5q9aq4B1DvxkqbhaXCCSSC-ypVq11leNCd9BtslGIdyKQIEGPt3lzdHEmAOMvDK0mUbXvBRr8-jh0E5p_xxHOf7VEfK9mr4QWQWgzgPHNQCD-VBHrAS33X7_1B2slauZuBx0_vRaUuweol02QTNG" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        alignItems: center
+        padding:
+          - pt-16
+          - pl-16
+          - pb-16
+          - pr-16
+  - type: GenericSection
+    title:
+      text: Cover Letters
+      color: text-dark
+      type: TitleBlock
+    text: >
+      Create custom cover letters based on your resume, professional summary, and job description for the position you are applying to – with the power of AI.
     actions: []
     media:
       title: Title of the video
@@ -473,12 +289,12 @@ sections:
       # subtitle:
       #   textAlign: left
   - title:
-      text: Intro Message
+      text: Intro Messages
       color: text-dark
       type: TitleBlock
     # subtitle: Increase your reach
     text: >
-      Create messages or templates for cold introduction, referral introduction, application follow-up, and much more.
+      Generate intros designed to open real conversations. We have different types of intros: cold intro, referral intro, etc.
     # actions:
     #   - label: Get started
     #     url: /
@@ -524,12 +340,12 @@ sections:
         flexDirection: row-reverse
     type: GenericSection
   - title:
-      text: Application Question
+      text: Application Questions
       color: text-dark
       type: TitleBlock
     # subtitle: Increase your reach
     text: >
-      Enter questions asked of you during the application process and populate answer options to help you finalize your response.
+      Enter questions asked of you during the application process and populate answers that align with your profile (resume, job description, etc.).
     # actions:
     #   - label: Get started
     #     url: /
@@ -574,12 +390,12 @@ sections:
         alignItems: center
     type: GenericSection
   - title:
-      text: Book Meeting
+      text: Book Job Interviews
       color: text-dark
       type: TitleBlock
     # subtitle: Be in good company
     text: >
-      Generate a personalized engagement template to send and initiate a meeting in the varios stages of your application process.
+      Create custom follow-up messages proven to book job interviews without being salesy/spammy.
     # actions:
     #   - label: Get started
     #     url: /
@@ -666,11 +482,11 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          "I've used Breadchaser to help me in increasing lead generations and network outreach to better assist those who need my company's services."
+          "I use Breadchaser to help me personalize my outbound sales emails & LinkedIn messages, which results in higher reply rates & more meetings booked with decision makers. It's been a life-saver for engaging high-quality leads that I wouldn't reach out to otherwise."
         # tagline: Testimonial
         subtitle: 'Nick Montes, Achieve Intelligence'
         text: >-
-          Nick is the Founder at Achieve Intelligence, an enterprise architecture consultancy based in Oxford, UK and providing services globally.
+          Nick is the Founder at Achieve Intelligence, a sales agency that providing sales consulting, lead generation, and GTM recruiting services.
         image:
           url: /images/avatar2.svg
           altText: John Doe
